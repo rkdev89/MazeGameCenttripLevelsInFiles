@@ -11,12 +11,12 @@ public class Game
         Title = "Welcome to the Centtrip Maze";
         CursorVisible = false;
 
-        var grid = LevelParser.ParseFileToArray("Level1.txt");
+        var grid = LevelParser.ParseFileToArray("Level3.txt");
 
         //maybe have a factory to create a world
         MyWorld = new World(grid);
         // maybe have a factory to create player
-        CurrentPlayer = new Player(2, 2);
+        CurrentPlayer = new Player(1, 1);
         RunGameLoop();
     }
 
