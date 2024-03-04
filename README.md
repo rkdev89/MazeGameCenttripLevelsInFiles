@@ -1,4 +1,5 @@
 Maze Game
+
 Welcome to the Maze Game! This is a simple console-based maze game written in C#. Players can navigate through pre-designed mazes stored in ASCII text files or challenge themselves with randomly generated mazes.
 
 Features
